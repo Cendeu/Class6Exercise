@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { RandomBackground } from './directives/randback.directive';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 
@@ -10,7 +11,8 @@ import { SearchResultsComponent } from './search-results/search-results.componen
   declarations: [
     AppComponent,
     NavbarComponent,
-    SearchResultsComponent
+    SearchResultsComponent,
+    RandomBackground
   ],
   imports: [
     BrowserModule,

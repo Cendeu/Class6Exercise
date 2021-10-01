@@ -7,6 +7,10 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class SearchResultsComponent implements OnInit {
 
+  // the text from the previous event
+  @Input() searchText: string;
+
+
   constructor() { }
 
   ngOnInit(): void {

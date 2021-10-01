@@ -1,0 +1,5 @@
+<app-navbar (searchEmit)="addSearchHistory($event)"></app-navbar>
+
+<ul class="list-group">
+  <app-search-results *ngFor="let search of searchHistory" [searchText]="search"></app-search-results>
+</ul>
